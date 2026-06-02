@@ -43,6 +43,7 @@ We also develop modeling packages focused on key epidemiological questions:
 
  - [imuGAP](https://github.com/ACCIDDA/imuGAP/) can use a wide variety of vaccination data, resolving data missingness and mixed aggregation across time, space, and age to provide high resolution age-and-place estimates of vaccine coverage
  - [hestia](https://github.com/ACCIDDA/hestia/) allows users to build custom disease and observation models to evaluate household study data and estimate key epidemiological parameters.
+ - [SeverityEstimate](https://github.com/ACCIDDA/SeverityEstimate) is an R package for estimating the severity of infections from line list data that include active and passive detection.
  - [vaxflux](https://github.com/ACCIDDA/vaxflux/) is a python package for modeling seasonal vaccine uptake like influenza vaccines.
 
 # Get in touch
