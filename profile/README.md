@@ -8,16 +8,14 @@ ACCIDDA is devoted to rapid, coordinated response to infectious disease threats 
 
 ## AI Tools
 
-We use a variety of cutting edge AI techniques in our work. The publicly released ones include:
-
- - [influpaint](https://github.com/jcblemai/influpaint) uses a novel "[inpainting](https://en.wikipedia.org/wiki/Inpainting#Digital_inpainting)" technique to generate infectious disease trends.
+We develop several cutting-edge AI methods to improve forecasts of infectious disease dynamics. Our publicly released methods include:
+- **Influpaint** ([GitHub](https://github.com/ACCIDDA/influpaint), [paper](https://arxiv.org/abs/2604.24913), [documentation—start here](https://accidda.github.io/influpaint/)) uses generative AI methods called diffusion models to produce diverse and flexible forecasts—similarly to how images are generated—using [inpainting](https://en.wikipedia.org/wiki/Inpainting#Digital_inpainting).
  - [LEMMA-forecast](https://github.com/ACCIDDA/LEMMA-forecast) generates intermediate predictions using simple mechanistic models, learns from their mistakes, and generates the final predictions using Machine Learning.
 
 ## Dashboards
 
 Rapid visualization of operationally-relevant trends is key to decision-making and is a routine part of our work. In additional to custom products, we also have publicly available examples like:
-
- - [RespiLens](https://github.com/ACCIDDA/RespiLens) provides a flexible dashboard for respiratory disease trends; [check it out here](https://www.respilens.com)! Also, be sure to try [Forecastle](https://www.respilens.com/forecastle) to test your skill at forecasting.
+- **RespiLens** ([GitHub](https://github.com/ACCIDDA/RespiLens), [visit RespiLens](https://www.respilens.com/)) is a convenient web app for exploring local respiratory disease data and forecasts, featuring the latest CDC data. Test your forecasting skills with [Forecastle](https://www.respilens.com/forecastle), and explore our [toolbox](https://www.respilens.com/toolbox) to see how RespiLens can help you analyze disease trends.
  - [Forecast-viz Creator](https://github.com/ACCIDDA/forecast-viz-creator) provides a tool to rapidly generate public dashboards for visualizing forecasts.
  - The [NC Measles Vaccine Coverage](https://www.dph.ncdhhs.gov/programs/epidemiology/communicable-disease/infectious-respiratory-diseases/measles-rubeola/nc-measles-vaccination-data-dashboard) dashboard shows estimated vaccine protection across the state, derived from our [imuGAP](https://github.com/ACCIDDA/imuGAP) tool.
 
