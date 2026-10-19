@@ -38,6 +38,8 @@ In addition to bespoke modeling applications, we are constantly refining general
 - [op_system](https://github.com/ACCIDDA/op_system/) compiles structured model specifications into numerical right-hand sides, with reaction metadata, named observables and forcing schedules. The core is [published on PyPI](https://pypi.org/project/op-system/); see its [capabilities and examples](https://accidda.github.io/op_system/latest/guides/capabilities/).
 - [op_engine](https://github.com/ACCIDDA/op_engine/) supplies deterministic and stochastic solvers, including independent NumPy SSA banks, observations and replay. The core is [published on PyPI](https://pypi.org/project/op-engine/); its [qualification matrix](https://accidda.github.io/op_engine/latest/guides/backend-qualification/) states the tested CPU methods and backends. Both cores can be used directly or through separate FlepiMoP2 provider packages.
 
+**In development:** [op_infer](https://jcmacdonald.dev/projects/inference_calibration/) is a working statistical layer connecting Bayesian fitting through established inference libraries, simulation-based calibration and replicated study-design checks. It remains private, pre-alpha and unreleased while broader interfaces and application-specific validation develop.
+
 ## Specialized Inference Models
 
 We also develop modeling packages focused on key epidemiological questions:
